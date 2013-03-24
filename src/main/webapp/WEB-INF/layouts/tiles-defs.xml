@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+	<definition name="defaultLayout" template="/layouts/defaultLayout" />
+
+	<definition name="startpage" extends="defaultLayout" templateType="thymeleaf">
+		<put-attribute name="content" value="startpage :: content" type="thymeleaf" />
+	</definition>
+
+	<definition name="landingpage" extends="defaultLayout" templateType="thymeleaf">
+		<put-attribute name="content" value="landingpage :: content" type="thymeleaf" />
+	</definition>
+</tiles-definitions>

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	xmlns:tiles="http://www.thymeleaf.org"
+	xmlns:wro4j="http://www.thymeleaf.org">
+<head th:inline="text">
+<meta charset="utf-8" />
+<link wro4j:style="landingpage" rel="stylesheet" type="text/css" />
+<script wro4j:script="landingpage"></script>
+</head>
+<body>
+
+	<h1>SNB+</h1>
+
+	<div id="content" tiles:substituteby="content">
+		Hier wird der Content eingesetzt.
+	</div>
+
+</body>
+</html>
