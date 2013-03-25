@@ -10,6 +10,8 @@
 
 	<div tiles:fragment="content">
 	
+		<p>Here we go!!<span th:utext="${wro4j.css('landingpage')}">WRO TEXT...</span></p>
+	
 		<div class="red">
 			ROT IST COOL.
 		</div>
@@ -17,8 +19,11 @@
 		<div class="blue">
 			BLAU ist HOT
 		</div>
-	
-	
+		
+		<script th:inline="javascript">
+			var files = /*[[${wro4j.css('landingpage')}]]*/ [];
+		</script>
+		
 	</div>
 
 </body>
