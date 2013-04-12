@@ -1,4 +1,4 @@
-package org.sevensource.wro4j.config;
+package org.sevensource.wro4spring.example.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

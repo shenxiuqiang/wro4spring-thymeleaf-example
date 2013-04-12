@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.sevensource.parents</groupId>
 		<artifactId>parent-webapp</artifactId>
-		<version>0.9.11-SNAPSHOT</version>
+		<version>0.9.12</version>
 	</parent>
 
 	<groupId>com.sevensource.wro4spring</groupId>
@@ -15,41 +15,26 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context-support</artifactId>
-		</dependency>
-		
-		<dependency>
-			<groupId>javax.enterprise</groupId>
-			<artifactId>cdi-api</artifactId>
-		</dependency>
-		
-		<dependency>
 			<groupId>org.sevensource</groupId>
 			<artifactId>thymeleaf4spring</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.3-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>
 			<groupId>org.sevensource</groupId>
 			<artifactId>wro4spring</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.3-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>
 			<groupId>org.sevensource.wro4spring</groupId>
 			<artifactId>wro4spring-thymeleaf-dialect</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.3-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.thymeleaf.extras</groupId>
+			<artifactId>thymeleaf-extras-tiles2</artifactId>
 		</dependency>
 	</dependencies>
 </project>

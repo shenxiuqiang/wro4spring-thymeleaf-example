@@ -1,6 +1,6 @@
-package org.sevensource.wro4j.config;
+package org.sevensource.wro4spring.example.config;
 
-import org.sevensource.wro4j.IndexController;
+import org.sevensource.wro4spring.example.IndexController;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

@@ -1,4 +1,4 @@
-package org.sevensource.wro4j;
+package org.sevensource.wro4spring.example;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

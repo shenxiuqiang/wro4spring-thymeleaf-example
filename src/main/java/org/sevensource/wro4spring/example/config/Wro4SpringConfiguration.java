@@ -1,4 +1,4 @@
-package org.sevensource.wro4j.config;
+package org.sevensource.wro4spring.example.config;
 
 import org.sevensource.wro4spring.WroDeliveryConfiguration;
 import org.sevensource.wro4spring.config.DefaultAbstractWro4SpringConfiguration;
